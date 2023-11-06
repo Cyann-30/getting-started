@@ -4,6 +4,4 @@ jobs:
   build-deploy-docker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: nv-ci
-        uses: docker/setup-buildx-action@v2
+      - uses: actions/checkout@v4
